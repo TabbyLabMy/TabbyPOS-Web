@@ -1,0 +1,20 @@
+[18-Apr-2023 06:31:56 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:31:58 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:01 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:05 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:10 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:13 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:13 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:15 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:32:22 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ergopo28/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[18-Apr-2023 06:56:41 UTC] WordPress database error Duplicate entry '12334-251' for key '_fwbk_wp2_term_relationships.PRIMARY' for query INSERT INTO _fwbk_wp2_term_relationships ( 
+`object_id`, `term_taxonomy_id`, `term_order` 
+) VALUES ( 
+'12334', '251', '0' 
+) made by do_action('wp_ajax_nopriv_fw:ext:backups:continue-pending-task'), WP_Hook->do_action, WP_Hook->apply_filters, _FW_Ext_Backups_Module_Tasks->_action_ajax_continue_pending_task, _FW_Ext_Backups_Module_Tasks->execute_pending_task, FW_Ext_Backups_Task_Type_DB_Restore->execute, FW_Ext_Backups_Task_Type_DB_Restore->do_import
+[18-Apr-2023 06:56:41 UTC] WordPress database error Duplicate entry '12334-252' for key '_fwbk_wp2_term_relationships.PRIMARY' for query INSERT INTO _fwbk_wp2_term_relationships ( 
+`object_id`, `term_taxonomy_id`, `term_order` 
+) VALUES ( 
+'12334', '252', '0' 
+) made by do_action('wp_ajax_nopriv_fw:ext:backups:continue-pending-task'), WP_Hook->do_action, WP_Hook->apply_filters, _FW_Ext_Backups_Module_Tasks->_action_ajax_continue_pending_task, _FW_Ext_Backups_Module_Tasks->execute_pending_task, FW_Ext_Backups_Task_Type_DB_Restore->execute, FW_Ext_Backups_Task_Type_DB_Restore->do_import
+[06-Jun-2023 05:20:21 UTC] WordPress database error Table 'ergopo28_tabbylab.wp2_trp_dictionary_en_us_' doesn't exist for query SELECT COUNT(id) FROM wp2_trp_dictionary_en_us_ WHERE translated != '' made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, TRP_Plugin_Optin->process_optin_actions
